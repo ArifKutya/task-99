@@ -1,4 +1,5 @@
 import "./App.css";
+import LoginForm from "./components/form";
 
 function App() {
   return (
@@ -10,8 +11,8 @@ function App() {
         </div>
       </section>
       <div class="container is-fullhd">
-        <div class="notification">
-          Edit the <code>./src</code> folder to add components.
+        <div className="notification">
+          <LoginForm/>
         </div>
       </div>
     </div>
